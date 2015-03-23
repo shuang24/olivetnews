@@ -9,7 +9,6 @@ return array(
     'modules' => array(
         'Application',
         'Category',
-        'Post',
         'Admin'
     ),
     'module_listener_options' => array(
