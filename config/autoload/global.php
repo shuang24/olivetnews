@@ -13,12 +13,12 @@
 return array(
     'db' => array(
          'driver'         => 'Pdo',
-         'dsn'            => 'mysql:dbname=olivetnews;host=localhost',
+         'dsn'            => 'mysql:dbname=final_steven;host=http://23.239.11.107/phpmyadmin/',
          'driver_options' => array(
              PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
          ),
          'username'=>'root',
-         'password'=>''
+         'password'=>'q1w2e3AA'
      ),
      'service_manager' => array(
          'factories' => array(
