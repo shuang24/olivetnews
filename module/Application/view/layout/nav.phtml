@@ -1,0 +1,12 @@
+<?php 
+$categoryService = $this->getHelperPluginManager()->getServiceLocator()->get("Category\Model\CategoryTable");
+$categories = $categoryService->fetchAll();
+?>
+                    <div id="MainNav">
+                            <ul>
+                                <li class="Current"><a href="<?php echo $this->url("home")?>" title="Olivet University General News">Home</a></li>
+                                <?php foreach ($categories as $category):?>
+                                <li ><a href="<?php echo $this->url("category_home",array("categoryid"=>$category->getId()))?>" title="<?php echo "Olivet University ".$category->getName();?>"><?php echo $category->getName();?></a></li>
+                            <?php endforeach;?>
+                            </ul>
+                        </div>

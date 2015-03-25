@@ -13,7 +13,7 @@
 return array(
     'db' => array(
          'driver'         => 'Pdo',
-         'dsn'            => 'mysql:dbname=final_steven;host=http://23.239.11.107/phpmyadmin/',
+         'dsn'            => 'mysql:dbname=final_steven;host=localhost',
          'driver_options' => array(
              PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
          ),

@@ -13,7 +13,7 @@ return array (
 						'home' => array (
 								'type' => 'Zend\Mvc\Router\Http\Literal',
 								'options' => array (
-										'route' => '/category',
+										'route' => '/',
 										'defaults' => array (
 												'controller' => 'Category\Controller\Index',
 												'action' => 'index' 
